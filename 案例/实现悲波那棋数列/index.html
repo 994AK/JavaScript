@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    //1.找规律
+    //2.找出口
+    function fb(n) {
+        if(n === 1 || n === 2){
+            return  1;
+        }
+        return fb(n - 1) + fb(n - 2);
+    }
+
+</script>
 </body>
 </html>
